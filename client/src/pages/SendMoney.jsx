@@ -61,6 +61,8 @@ const SendMoney = () => {
                               },
                            }
                         );
+
+                        setAmount(0);
                      }}
                      className="bg-green-600 text-white mt-6 w-full p-2 rounded-md cursor-pointer hover:bg-green-500 transition-colors"
                   >

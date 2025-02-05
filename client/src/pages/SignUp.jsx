@@ -81,6 +81,10 @@ const SignUp = () => {
 
                         localStorage.setItem("token", response.data.token);
                         navigate("/dashboard");
+                        setFirstname("");
+                        setLastname("");
+                        setEmail("");
+                        setPassword("");
                      } catch (error) {
                         console.error("Signup failed:", error);
                      }
